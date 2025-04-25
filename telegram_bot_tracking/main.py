@@ -98,7 +98,7 @@ async def arrived(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"Обновлён номер: {number}")
 
 def main():
-    token = os.getenv("BOT_TOKEN", "YOUR_TOKEN_HERE")
+    token = os.getenv("7600520818:AAFUOIclczxOtbu_lrXRVJKHuW_tRknX3AU")
     app = ApplicationBuilder().token(token).build()
 
     app.add_handler(CommandHandler("start", start))
